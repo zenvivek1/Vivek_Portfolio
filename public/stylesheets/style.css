@@ -1,0 +1,147 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  color: white;
+  line-height: 1.6;
+}
+
+header {
+  height: 13vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo {
+  width: 100%;
+  margin: auto;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  top: 60px;
+  position: absolute;
+  left: 50px;
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  cursor: pointer;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffd700;
+}
+
+section {
+  padding: 3rem 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+
+#hero {
+  padding-top: 5rem;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 3rem;
+}
+
+#hero button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background-color: #ffd700;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+#hero button:hover {
+  background-color: #ffcc00;
+}
+
+
+.project {
+  background: rgba(255, 255, 255, 0.1);
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#skills dl {
+  margin-top: 2rem;
+  padding-left: 1rem;
+  border-left: 3px solid #ffd700;
+}
+
+#skills dt {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  color: #ffd700;
+  position: relative;
+}
+
+#skills dd {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #dddddd;
+  line-height: 1.6;
+  padding-left: 1rem;
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+#contact-form button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background-color: #ffd700;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}

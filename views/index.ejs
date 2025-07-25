@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vivek's Portfolio</title>
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">Vivek Singh Raghuvanshi</div>
+      <ul class="nav-links">
+        <li><a onclick="scrollToSection('about')">About</a></li>
+        <li><a onclick="scrollToSection('projects')">Projects</a></li>
+        <li><a onclick="scrollToSection('skills')">Skills</a></li>
+        <li><a onclick="scrollToSection('contact')">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1>Hello, I'm Vivek</h1>
+    <p>A passionate Web Developer & Cybersecurity Enthusiast</p>
+    <button onclick="scrollToSection('projects')">See My Work</button>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>II am a B.Tech student specializing in Computer Science and Engineering with a focus on Cyber Security. Alongside
+      my core studies, I have developed a strong passion for web development and ethical hacking. I enjoy working on
+      creative and practical tech projects that sharpen both my technical and problem-solving skills.
+
+      I am known for my adaptability, effective communication, and strong learning potential. I believe in staying
+      curious and continuously improving myself through hands-on experience and real-world projects. Whether it’s
+      frontend development, backend integration, or understanding system vulnerabilities, I strive to contribute
+      meaningful solutions.
+
+      My ultimate goal is to use my growing skills to make a positive impact in the tech industry—by building secure,
+      innovative, and user-friendly applications that truly matter.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <dl>
+      <dt>HTML, CSS, JavaScript</dt>
+      <dd>I know HTML, CSS with VanillaCSS, Bootstrap, Tailwind, and Intermediate to Advanced JavaScript.</dd>
+
+      <dt>Node.js, Express.js</dt>
+      <dd>Experienced in building RESTful APIs, server-side logic, and backend integration using Express and Node.js.
+      </dd>
+
+      <dt>C++, Java</dt>
+      <dd>Good understanding of Object-Oriented Programming, Data Structures, and Algorithmic problem-solving.</dd>
+
+      <dt>Cyber Security Fundamentals</dt>
+      <dd>Strong foundation in ethical hacking, networking, security concepts, and system vulnerabilities.</dd>
+    </dl>
+  </section>
+
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>iZen Clothing Store</h3>
+      <p>E-commerce frontend & backend Shopping Website using MERN </p>
+    </div>
+    <div class="project">
+      <h3>Netflix Clone</h3>
+      <p>Built using HTML, CSS, and JS. Responsive design with UI inspired by Netflix.</p>
+    </div>
+    <div class="project">
+      <h3>Flipkart Clone</h3>
+      <p>E-commerce frontend replica with search and responsive product grid.</p>
+    </div>
+    <!-- Add more projects here -->
+  </section>
+
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form" action="https://formsubmit.co/vkraghu2004@email.com" method="POST">
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Made with ❤️ by Vivek | &copy; 2025</p>
+  </footer>
+
+  <script src="/javascripts/script.js"></script>
+</body>
+
+</html>
