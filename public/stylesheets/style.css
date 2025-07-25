@@ -145,3 +145,17 @@ footer {
   padding: 1rem;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+.absolute1{
+  position: absolute;
+}
+
+.logo1{
+  right: 17%;
+}
+.logo2{
+  right: 3%;
+}
+.logo3{
+  right: 10%;
+}
